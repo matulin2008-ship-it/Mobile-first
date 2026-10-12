@@ -6,10 +6,11 @@ Jednostránkový web v češtině na téma péče o automobil a základů autode
 
 - `index.html` – sémantická struktura stránky, metadata a přirozeně napsaný obsah.
 - `style.css` – mobile-first stylování, Flexbox/Grid a responzivní úpravy pro větší obrazovky.
+- `images/hero.svg` – vlastní vektorová ilustrace optimalizovaná pro web.
 
 ## Spuštění
 
-Otevřete `index.html` v prohlížeči. Web nepoužívá JavaScript ani externí knihovny; úvodní fotografie se načítá z Unsplash, takže její zobrazení vyžaduje připojení k internetu.
+Otevřete `index.html` v prohlížeči. Web nepoužívá JavaScript, externí knihovny ani vzdálené obrázky. Vlastní SVG ilustrace je uložena v repozitáři, takže se načítá i bez připojení k internetu.
 
 ## Použité SEO fráze
 
@@ -29,6 +30,6 @@ Fráze jsou vloženy do titulku, meta description, nadpisů a odstavců přiroze
 - Obrázky mají smysluplný `alt`, fluidní rozměry a nastavené atributy `width` a `height`.
 - Navigace odkazuje na sekce stránky; nechybí přeskočení přímo na hlavní obsah.
 
-## Fotografie
+## Ilustrace
 
-Úvodní fotografie je od Avenir Visuals a je dostupná pod licencí Unsplash: [Man washing a car covered in foam](https://unsplash.com/photos/man-washing-a-car-covered-in-foam-8s9GAPUMimY).
+Úvodní ilustrace je vlastní SVG soubor v `images/hero.svg`. Zůstává ostrá při různých velikostech a nevyžaduje další síťový požadavek.
